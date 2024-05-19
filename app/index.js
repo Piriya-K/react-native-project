@@ -1,11 +1,5 @@
 import { useState } from "react";
-import {
-  View,
-  Text,
-  ScrollView,
-  SafeAreaViews,
-  SafeAreaView,
-} from "react-native";
+import { View, ScrollView, SafeAreaView } from "react-native";
 import { Stack, useRouter } from "expo-router";
 
 import { COLORS, icons, images, SIZES } from "../constants";
@@ -38,12 +32,10 @@ const Home = () => {
       {/* Add a scrollview under the navigation bar */}
       <ScrollView showsVerticalScrollIndicator={true}>
         <View style={{ flex: 1, padding: SIZES.medium }}>
-          <Welcome
-          
-          />
+          <Welcome />
 
-          <Popularjobs/>
-          <Nearbyjobs/>
+          <Popularjobs />
+          <Nearbyjobs />
         </View>
       </ScrollView>
     </SafeAreaView>
