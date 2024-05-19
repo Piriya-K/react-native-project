@@ -1,4 +1,3 @@
-import { useState } from "react";
 import {
   View,
   Text,
@@ -24,7 +23,7 @@ const Popularjobs = () => {
   return (
     <View style={styles.container}>
       <View style={styles.header}>
-        <Text style={styles.headerTitle}>Popularjobs</Text>
+        <Text style={styles.headerTitle}>Popular Jobs</Text>
         <TouchableOpacity>
           <Text style={styles.headerBtn}>See all</Text>
         </TouchableOpacity>
